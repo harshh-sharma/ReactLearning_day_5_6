@@ -1,0 +1,74 @@
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: orange; */
+    background-color: rgb(242, 242, 242);
+    padding-left:5em;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    z-index: 1000;
+}
+
+#logo img{
+    width: 4em;
+    border-radius: 100%;
+}
+
+#nav ul {
+    display: flex;
+    padding-right: 20px;
+    margin-right: 10em;
+}
+
+#nav ul li {
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+#restaurant-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content:center;
+    /* background-color: rgb(220, 218, 218); */
+    background-color: rgb(242, 242, 242);
+}
+
+#cardContainer {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding:10px; 
+    border-radius: 5px;
+    margin: 5px 5px;
+    box-sizing: border-box;
+}
+
+#cardContainer #top-section img{
+    width: 200px;
+    height: 150px;
+}
+
+#cardContainer #bottom-section .inner-card-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+    color: grey;
+}
+
+#cardContainer #bottom-section  p{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: grey;
+}
